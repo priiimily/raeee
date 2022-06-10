@@ -1,0 +1,128 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	display: flex;
+	justify-content: center;
+	background: ;
+}
+.menu-bar{
+	text-align: center;
+	margin-left: 10px;
+	height: 50px;
+	font-size: 20px;
+	top: 10px;
+	font-family: Cambodian;
+	cursor: pointer;
+} 
+.menu-bar ul {
+    display: inline-flex;
+	list-style: none;
+	color: #BA4A00; 
+	height: 15px;
+}
+.menu-bar ul li {
+	width: 60px;
+	margin: 25px;
+	padding: 15px;	
+}
+.menu-bar ul li a {
+   text-decoration: none;
+   color: #212F3D;
+   margin: -20px;
+}
+img{
+	position: relative;
+	width: 250px;
+	display: inline-flex;
+	text-align: center;
+	top: -20px;
+}
+.container{
+	position: relative;
+	width: 300px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 10px;
+	margin-top: 5%;
+	
+
+}
+.container .card{
+	width: 300px;
+	position: relative;
+	height: 400px;
+	background: #f0f0f0;
+	display: inline-flex;
+    box-shadow: 0.5px 5px #e6e6e6;
+    transition: 0.10s ease-in-out;
+    margin-top: -150px;
+    margin-right: 400px;
+
+}
+.card{
+	width: 200px;
+	display:flex;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 30px;
+}
+.imgBx:hover img{
+	transform: scale(1.1);
+}
+.title{
+	text-align: center;
+	margin-top: 50px;
+	margin-left: 250px;
+	border-style: outset;
+	border-width: 2px;
+	border-radius: 9px;
+	padding: 3px;
+	width: 30%;
+	color: black;
+	font-family: Cambria;
+	transition: 0.10s ease-in-out;
+}
+.title:hover{
+	transform: scale(1.1);
+}
+.des{
+	display: inline-flex;	
+	
+}
+section{
+	display: inline-block;	
+}
+a{
+	text-decoration: none;
+	font-size: 15px;
+	color: black;
+	font-family: Verdana;    
+}
+h2{
+	font-family: Trebuchet MS;
+}
+li a, .dropbtn {
+  display: inline-block;
+  color: #00fa9a;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: gray;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+.logo{
+	width: 40%;
+}
